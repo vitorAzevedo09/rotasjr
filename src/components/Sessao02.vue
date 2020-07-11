@@ -41,7 +41,7 @@
         </v-row>
         <v-row v-if="!enableCardEventos">
           <v-spacer></v-spacer>
-          <v-btn class="mb-2" outlined x-large color="white" width="60%">Fale conosco!</v-btn>
+          <v-btn class="mb-2" outlined x-large color="white" width="60%"><span style="font-size:70%;">Fale conosco!</span></v-btn>
           <v-spacer></v-spacer>
         </v-row>
         <v-card class="mx-auto mb-8" max-width="344" v-if="enableCardEventos" elevation="20">
