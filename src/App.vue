@@ -21,6 +21,7 @@
     <v-content>
       <Sessao01 />
       <Sessao02 />
+      <Sessao03 />
     </v-content>
   </v-app>
 </template>
@@ -28,13 +29,15 @@
 <script>
 import Sessao01 from "./components/Sessao01.vue";
 import Sessao02 from "./components/Sessao02.vue";
+import Sessao03 from "./components/Sessao03.vue";
 
 export default {
   name: "App",
 
   components: {
     Sessao01,
-    Sessao02
+    Sessao02,
+    Sessao03
   },
 
   data: () => ({

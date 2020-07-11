@@ -1,5 +1,5 @@
 <template>
-  <v-row class="text-center" style="background-color: #5E2D5A;">
+  <v-row class="pb-8" style="background-color: #5E2D5A;">
     <v-row style="width: 100%;" class="mt-8 mb-8">
       <v-spacer></v-spacer>
       <h2 style="color:white; font-size: 2.2em;">Nossos Serviços</h2>
@@ -36,22 +36,15 @@
         </v-row>
         <v-row class="mb-8" v-if="!enableCardEventos">
           <v-spacer></v-spacer>
-          <span style="color:white; font-size: 2.0em;">V</span>
+          <v-btn text style="color: white; font-size: 2.0em;" @click="enableCardEventos=true">V</v-btn>
           <v-spacer></v-spacer>
         </v-row>
         <v-row v-if="!enableCardEventos">
           <v-spacer></v-spacer>
-          <v-btn
-            class="ma-2"
-            outlined
-            x-large
-            color="white"
-            width="60%"
-            @click="enableCardEventos=true"
-          >Fale conosco!</v-btn>
+          <v-btn class="mb-2" outlined x-large color="white" width="60%">Fale conosco!</v-btn>
           <v-spacer></v-spacer>
         </v-row>
-        <v-card class="mx-auto" max-width="344" v-if="enableCardEventos">
+        <v-card class="mx-auto mb-8" max-width="344" v-if="enableCardEventos" elevation="20">
           <v-card-text>
             <v-row class="mb-10">
               <v-spacer></v-spacer>
