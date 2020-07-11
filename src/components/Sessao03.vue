@@ -90,7 +90,7 @@
 
     <!-- EQUIPE -->
 
-    <v-row class="pb-8" style="background-color: white;">
+    <v-row class="pb-12 mb-8" style="background-color: white;">
       <v-row style="width: 100%;" class="mt-8 mb-8">
         <v-row style="width: 100%;" class="mb-2">
           <v-spacer></v-spacer>

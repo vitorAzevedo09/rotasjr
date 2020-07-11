@@ -22,6 +22,8 @@
       <Sessao01 />
       <Sessao02 />
       <Sessao03 />
+      <Sessao04 />
+      <Sessao05 />
     </v-content>
   </v-app>
 </template>
@@ -30,6 +32,8 @@
 import Sessao01 from "./components/Sessao01.vue";
 import Sessao02 from "./components/Sessao02.vue";
 import Sessao03 from "./components/Sessao03.vue";
+import Sessao04 from "./components/Sessao04.vue";
+import Sessao05 from "./components/Sessao05.vue";
 
 export default {
   name: "App",
@@ -37,7 +41,9 @@ export default {
   components: {
     Sessao01,
     Sessao02,
-    Sessao03
+    Sessao03,
+    Sessao04,
+    Sessao05
   },
 
   data: () => ({
