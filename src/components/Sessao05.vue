@@ -8,16 +8,14 @@
     <v-row>
       <v-col cols="5">
         <v-row class="mb-8">
-          <v-spacer></v-spacer>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7969.355079402552!2d-41.75786412353776!3d-2.9088561780278237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ec255a0bc46b2d%3A0x934a4feacf90f37b!2sRotas%20-%20Empresa%20J%C3%BAnior%20de%20Turismo!5e0!3m2!1sen!2sbr!4v1594472730576!5m2!1sen!2sbr"
                 frameborder="0"
-                style="border:0;width:100%;heigth:100%;"
+                style="border:0;"
                 allowfullscreen=""
                 aria-hidden="false"
                 tabindex="0"
               ></iframe>
-          <v-spacer></v-spacer>
         </v-row>
       </v-col>
       <v-col cols="7">
@@ -154,21 +152,10 @@ export default {
 };
 </script>
 <style lang="css" slot-scoped>
-.mapouter {
-  position: relative;
-  text-align: right;
-  height: 500px;
-  width: 600px;
-}
-.gmap_canvas {
-  overflow: hidden;
-  background: none !important;
-  height: 500px;
-  width: 600px;
-}
 
 iframe {
-  width: 100%;
-  height: 100%;
+  width: 50vw;
+  height: 50vh;
+  padding:3vw;
 }
 </style>
